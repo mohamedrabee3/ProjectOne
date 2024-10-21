@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --main-color:#0DA487;
+    --main-background:#F2F2F2;
+    --icon-color:#FFA53B;
+    --hover-color:#EAEAEA;
+    --border-color:#ccc;
+    --button-hover:#077e66;
+    --footer-background:#d4d4d4;
+}
+h1{
+    font-size:1.8rem;
+}
+.logo{
+    cursor: pointer;
+}
+.logo span{
+    color:var(--main-color);
+}
+button{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color:var(--button-hover);
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition:all 0.5s;
+    font-weight: 700;
+}
+a:hover{
+    color: var(--button-hover);
+    text-decoration: underline;
+}
+i{
+    cursor: pointer;
+}
+.fa-search{
+    font-size: 1rem;
+}
+input{
+    border:1px solid var(--border-color);
+    border-radius: 5px;
+    outline: none;
+    background-color:var(--main-background);
+}
+.search{
+    background-color: var(--main-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition:all 0.5s;
+    width: 40px;
+}
+.search:hover{
+    background-color: var(--button-hover);
+}
+.options li{
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 0.1px solid var(--border-color);
+    background-color: white;
+    transition:background-color 0.5s;
+  }
+  
+  .options li:hover {
+    background-color:var(--hover-color);
+    font-weight: 700;
+  }
+  .stars-icon{
+    cursor: pointer;
+   }
+   .stars-icon i{
+    color: var(--icon-color);
+   }
+   .product{
+    background-color: white;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    transition: all 0.4s;
+    cursor: pointer;
+    height: 400px;
+   
+}
+.product img{
+    width: 55%;
+}
+.product:hover{
+    box-shadow: 0px 7px 10px gray;
+}
+.is-valid {
+    border-color: green;
+}
+
+.is-invalid {
+    border-color: red;
+}
+.bg-disabled{
+    opacity: 0.7;
+}
+@media screen and (max-width:992px){
+    h1{
+        font-size: 1.4rem;
+    }
+   
+}
+

@@ -1,0 +1,15 @@
+{
+  "routes": [
+    "/about",
+    "/bestsellers",
+    "/brands",
+    "/cart",
+    "/contact",
+    "/giftcards",
+    "/home",
+    "/profile",
+    "/shopping",
+    "/signin",
+    "/signup"
+  ]
+}
